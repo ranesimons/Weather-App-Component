@@ -29,9 +29,7 @@ module.exports = {
         static: {
             directory: path.join(__dirname, 'public'),
         },
-        port: 3009,
-        // publicPath: "http:/localhost:3000/dist/",
-        // hotOnly: true
+        port: 3011,
     },
     plugins: [new webpack.HotModuleReplacementPlugin()]
 };
