@@ -1,27 +1,6 @@
 .all {
   display: flex;
-}
-
-.weather {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-
-.day {
-  color: grey;
-}
-
-.temperatures {
-  display: flex;
-}
-
-.maximum {
-  width: 50%;
-  color: black;
-}
-
-.minimum {
-  width: 50%;
-  color: grey;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }

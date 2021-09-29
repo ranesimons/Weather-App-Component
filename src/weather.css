@@ -1,0 +1,27 @@
+.weather {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.weather:hover {
+  background: lightgray;
+}
+
+.day {
+  color: grey;
+}
+
+.temperatures {
+  display: flex;
+}
+
+.maximum {
+  width: 50%;
+  color: black;
+}
+
+.minimum {
+  width: 50%;
+  color: grey;
+}
